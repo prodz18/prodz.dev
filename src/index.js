@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { FirebaseAppProvider } from 'reactfire';
 import './assets/styles/index.css';
-import FirebaseConfig from './firebase.config';
+import FirebaseConfig from './utils/firebase.config';
 import App from './App';
 
 ReactDOM.render(
