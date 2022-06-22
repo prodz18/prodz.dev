@@ -27,7 +27,7 @@ const About = (props) => {
 						<h1 className="uppercase text-xl lg:text-3xl text-center font-bold text-gray-900">
 							{data.title}
 						</h1>
-						<p className="py-5 text-center lg:text-justify leading-relaxed text-gray-700 text-xl">
+						<p className="py-5 text-center lg:text-justify leading-relaxed text-gray-700 text-base lg:text-lg">
 							{data.content}
 						</p>
 					</>

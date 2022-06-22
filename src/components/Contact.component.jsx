@@ -27,7 +27,7 @@ const Contact = (props) => {
 						<h1 className="uppercase text-xl lg:text-3xl text-center font-bold">
 							{status === 'loading' ? 'Loading...' : data.title}
 						</h1>
-						<p className="pt-5 text-center text-gray-100 leading-relaxed text-xl">
+						<p className="pt-5 text-center text-gray-100 leading-relaxed text-base lg:text-lg">
 							{status === 'loading' ? 'Loading...' : data.content}
 						</p>
 					</>
